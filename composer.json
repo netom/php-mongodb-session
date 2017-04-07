@@ -1,0 +1,21 @@
+{
+    "name": "netom/php-mongodb-session",
+    "type": "library",
+    "description": "A tiny, lockless session backend",
+    "keywords": ["session", "mongodb"],
+    "homepage": "https://github.com/netom/php-mongodb-session",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Fábián Tamás László",
+            "email": "giganetom@gmail.com"
+        }
+    ],
+    "require": {
+        "php":         ">=5.4.0",
+        "ext-mongodb": "~1.2.0"
+    },
+    "autoload": {
+        "psr-0": { "Netom\\Session": "src/" }
+    }
+}
